@@ -8,7 +8,7 @@ Emily Herman
 
 
 CONTENTS:
-| index.html
+index.html
 | portfolio.html
 | contact.html
 | Assets/
@@ -17,7 +17,7 @@ DEPLOYED LINK: https://emilyah-01.github.io/HW-2_Portfolio-Website/
 
 DESCRIPTION:
 
-The three html files make up a simple website created with Bootstrap elements that will showcase my current coding projects. They share common features (navigation bar, footer) but have the following unique elements:
+The three html files make up a simple website created with Bootstrap elements that showcase my current coding projects. They share common features (navigation bar, footer) but have the following unique elements:
 
 index.html:
 - Picture of myself
