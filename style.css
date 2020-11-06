@@ -14,10 +14,6 @@
     color: #065c6f !important;
 }
 
-body {
-    background-image: url('assets/topographic_map.png');
-}
-
 .boxed {
     border-width: 3px;
     border-color: #ffbb91;
