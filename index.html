@@ -14,14 +14,15 @@
     <!-- Google Fonts: Raleway for navbar/headings, Open Sans for content-->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@600&display=swap" rel="stylesheet">
 
+    <link rel = "stylesheet" href="style.css">
 </head>
 
 <!-- Body with background image -->
-<body class="pb-5" style="background-image:url(https://www.designbolts.com/wp-content/uploads/2012/12/Skin-Side-Up-White-Seamless-Texutre-For-Website-Background.jpg);">
+<body class="pb-5">
 
     <!-- Navigation bar, modified from Bootstrap -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand text-white font-weight-bold" style="font-family: 'Raleway', sans-serif;" href="#">Emily Herman</a>
+    <nav class="navbar navbar-expand-lg navbar-dark upper">
+        <a class="navbar-brand titles" href="#">EMILY HERMAN</a>
 
         <!-- "Hamburger" menu for mobile site-->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,37 +44,60 @@
         <!-- Page title -->
         <header class="row mt-5 mb-3">
             <div class="col-sm-12">
-                <h1 style="font-family: 'Raleway', sans-serif;">About Me:</h1>
+                <h1 class="titles">ABOUT ME:</h1>
             </div>
         </header>
 
         <section class="row">
 
             <!-- Picture of me -->
-            <figure class="col-sm-4 pb-3"> 
+            <figure class="col-sm-5 pb-3"> 
                 <img class="float-sm-left img-fluid" src="Assets/canyonlands.jpg" alt="Hiking in Canyonlands National Park">           
             </figure>
 
             <!-- Bio paragraph -->
-            <div class="col-sm-5 float-sm-right">
-                <p> Hello! I'm Emily, a mechanical engineer in Metro Detroit. I've worked at an aerospace company since my graduation from the University of Utah in 2016. I'm ready for a career change, and am excited to venture into the field of web development! I have enjoyed my previous minor forays into coding, which makes me hopeful this field will bring me greater job satisfaction. </p>
-                <p> When I'm not working or coding, you'll find me visiting my home state of Utah or spending time outdoors. I love going backpacking and paddleboarding, and hope to work as a web developer for an outdoor company or nonprofit that shares my passions. </p>
-            </div>
-
-            <!-- Card with contact information -->
-            <div class="col-md-3">
+            <div class="col-sm-7 float-sm-right pb-3">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title" style="font-family: 'Raleway', sans-serif;">Links:</h5>
-                        <ul class="card-text">
-                            <li><a href="https://github.com/EmilyAH-01" target="_blank">Github</a></li>
-                            <li><a href="https://www.linkedin.com/in/emily-herman-1477767b/" target="_blank">LinkedIn</a></li>
-                            <li><a href="https://stackoverflow.com/users/14115349/emilyh" target="_blank">Stack Overflow</a></li>
-                        </ul>
+                        <div class="card-text">
+                            <p> Hello! I'm Emily, a mechanical engineer in Metro Detroit. I've worked at an aerospace company since my graduation from the University of Utah in 2016. I'm ready for a career change, and am excited to venture into the field of web development! I have enjoyed my previous minor forays into coding, which makes me hopeful this field will bring me greater job satisfaction. </p>
+                            <p> When I'm not working or coding, you'll find me spending time outdoors or visiting my home state of Utah. I love going backpacking and paddleboarding, and hope to work as a web developer for an outdoor company or nonprofit that shares my passions. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="row">
+            <!-- Card with contact information -->
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-family: 'Raleway', sans-serif;">Links:</h5>
+                            <ul class="card-text">
+                                <li><a href="Assets/Emily_Herman_Resume_2020.pdf" target="_blank">Resume</a></li>
+                                <li><a href="https://www.linkedin.com/in/emily-herman-1477767b/" target="_blank">LinkedIn</a></li>
+                                <li><a href="https://github.com/EmilyAH-01" target="_blank">Github</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-family: 'Raleway', sans-serif;">Contact:</h5>
+                            <ul class="card-text">
+                                <li>Email:  emily.a.h@hotmail.com</li>
+                                <li>Phone:  (801) 803-3414</li>
+                                <br>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
+        
     </main>
     
     <!-- jQuery CDN -->
@@ -87,9 +111,9 @@
 </body>
 
 <!-- Sticky footer, modified from Bootstrap -->
-<footer class="pt-5" style="font-family: 'Montserrat', sans-serif;">
-    <nav class="navbar fixed-bottom navbar-light bg-light" style="height:50px;">
-        <a class="navbar-brand mx-auto" style="font-size: 16px;">Copyright (c) Emily Herman 2020</a>
+<footer class="pt-5">
+    <nav class="navbar fixed-bottom navbar-light footer">
+        <a class="navbar-brand mx-auto" style="font-size: 16px;">Copyright &#169 Emily Herman 2020</a>
     </nav>
 </footer>
 

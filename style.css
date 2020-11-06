@@ -1,0 +1,35 @@
+.upper {
+    background-color: #9ad3bc;
+}
+
+.footer {
+    background-color: #065c6f;
+    color: #faf3dd !important; 
+    font-family: 'Montserrat', sans-serif;
+    height: 50px;
+}
+
+.titles {
+    font-family: "Raleway", sans-serif;
+    color: #065c6f !important;
+}
+
+body {
+    background-image: url('assets/topographic_map.png');
+}
+
+.boxed {
+    border-width: 3px;
+    border-color: #ffbb91;
+    border-style: outset;
+    background-color: #e1eee9 !important;
+    padding: 25px;
+}
+
+.thumbnails {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 300px;
+    border: 3px outset #ffbb91;
+    padding: 0px;
+}
