@@ -36,3 +36,8 @@ contact.html:
 - form with fields for name, email, and message, with a "submit" button (currently non-functioning)
 
 ![See Assets folder](Assets/contact.png?raw=true)
+
+FUTURE WORK:
+- Add a more professional photo of myself
+- Optimize portfolio thumbnails for mobile devices 
+- Add functionality to contact form
