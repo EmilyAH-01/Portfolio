@@ -1,17 +1,18 @@
 .upper {
-    background-color: #9ad3bc;
+    background-color: #d30e00;
 }
 
 .footer {
-    background-color: #065c6f;
-    color: #faf3dd !important; 
+    background-color: #f4f7f8;
+    color: #d30e00 !important; 
     font-family: 'Montserrat', sans-serif;
     height: 50px;
 }
 
 .titles {
-    font-family: "Raleway", sans-serif;
-    color: #065c6f !important;
+    font-family: 'Bodoni Moda', serif;
+    color: white!important;
+    font-size: 40px;
 }
 
 .boxed {

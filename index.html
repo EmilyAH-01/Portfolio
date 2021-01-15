@@ -11,18 +11,20 @@
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
-    <!-- Google Fonts: Raleway for navbar/headings, Open Sans for content-->
+    <!-- Google Fonts: Raleway for navbar/headings, Open Sans for content OBSOLETEEEEEEEEEEE-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,500;1,400&display=swap" rel="stylesheet"> <!--Bodoni Moda-->
 
     <link rel = "stylesheet" href="style.css">
 </head>
 
 <!-- Body with background image -->
-<body class="pb-5" style="background-image: url('assets/topographic_map.png');">
+<body class="pb-5">
 
     <!-- Navigation bar, modified from Bootstrap -->
-    <nav class="navbar navbar-expand-lg navbar-dark upper">
-        <a class="navbar-brand titles" href="#">EMILY HERMAN</a>
+    <nav class="navbar navbar-expand-lg navbar-dark upper jumbotron">
+        <a class="navbar-brand titles" href="#">Emily Herman</a>
 
         <!-- "Hamburger" menu for mobile site-->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -100,6 +102,13 @@
         
     </main>
     
+    <!-- Footer, modified from Bootstrap -->
+    <footer class="pt-5">
+        <nav class="navbar fixed-bottom navbar-light footer">
+            <a class="navbar-brand mx-auto" style="font-size: 16px;">Copyright &#169 Emily Herman 2020</a>
+        </nav>
+    </footer>
+
     <!-- jQuery CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
@@ -109,12 +118,5 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 </body>
-
-<!-- Sticky footer, modified from Bootstrap -->
-<footer class="pt-5">
-    <nav class="navbar fixed-bottom navbar-light footer">
-        <a class="navbar-brand mx-auto" style="font-size: 16px;">Copyright &#169 Emily Herman 2020</a>
-    </nav>
-</footer>
 
 </html>
