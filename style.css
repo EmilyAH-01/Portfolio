@@ -1,5 +1,6 @@
-.upper {
-    background-color: #d30e00;
+.jumbotron {
+    background-image: url("Assets/test_photo.jpg");
+    background-size: cover;
 }
 
 .footer {
