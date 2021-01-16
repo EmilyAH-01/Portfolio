@@ -4,15 +4,15 @@
 
 .footer {
     background-color: #f4f7f8;
-    color: #d30e00 !important; 
+    color: #d30e00; 
     font-family: 'Montserrat', sans-serif;
     height: 50px;
 }
 
 .titles {
     font-family: 'Bodoni Moda', serif;
-    color: white!important;
-    font-size: 40px;
+    color: white;
+    font-size: 50px;
 }
 
 .boxed {
@@ -20,13 +20,23 @@
     border-color: #ffbb91;
     border-style: outset;
     background-color: #e1eee9 !important;
-    padding: 25px;
+    /* padding: 25px; */
 }
 
 .thumbnails {
     margin-bottom: 20px;
     margin-top: 20px;
     height: 300px;
+    /* width: 534px; */
     border: 3px outset #ffbb91;
     padding: 0px;
+}
+
+.stripe-background {
+    /* background-image: url("Assets/pattern1.png"); */
+    background-size: cover;
+}
+
+.centered {
+    text-align: center !important;
 }
