@@ -45,8 +45,7 @@ h2 {
 }
 
 .stripe-background {
-    /* background-image: url("Assets/pattern1.png"); */
-    background-size: cover;
+    background-image: url("Assets/pattern1.png");
 }
 
 .centered {
