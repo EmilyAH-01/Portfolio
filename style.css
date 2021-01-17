@@ -24,6 +24,10 @@
     font-size: 60px !important;
 }
 
+h2 {
+    font-family: 'Bodoni Moda', serif;  
+}
+
 .boxed {
     border-width: 3px;
     border-color: #ffbb91;
