@@ -20,47 +20,34 @@
     <link rel = "stylesheet" href="style.css">
 </head>
 
-<!-- Body with background image -->
-<body class="pb-5">
+<body>
+
+    <header class="jumbotron titles centered">
+        <h1>Emily Herman</h1>
+    </header>
 
     <!-- Navigation bar, modified from Bootstrap -->
-    <nav class="navbar navbar-expand-lg upper jumbotron">
-        <!-- <a class="navbar-brand titles centered" href="#">Emily Herman</a> -->
-        <div class="row">
-            <div class="col-sm-12">
-                <h1 class="titles centered" href="#">Emily Herman</h1>
+    <nav class="navbar navbar-expand-lg upper" role="navigation">
 
-                <!-- "Hamburger" menu for mobile site-->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
-        </div>
-        
-        <div class="row">
-            <div class="col-sm-12">
-                <!-- Links to site sections -->
-                <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-item nav-link text-white" href="index.html">About</a>
-                        <a class="nav-item nav-link text-white" href="#portfolio">Portfolio</a>
-                        <a class="nav-item nav-link text-white" href="#contactInfo">Contact</a>
-                    </div>
-                </div>
+        <!-- "Hamburger" menu for mobile site -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Links to site sections -->
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link text-white" href="index.html">About</a>
+                <a class="nav-item nav-link text-white" href="#portfolio">Portfolio</a>
+                <a class="nav-item nav-link text-white" href="#contactInfo">Contact</a>
             </div>
         </div>
     </nav>
+   
 
     <main class="container" style="font-family: 'Montserrat', sans-serif;">
          
-        <!-- Page title
-        <header class="row mt-3 mb-3">
-            <div class="col-sm-12">
-                <h1 class="titles">ABOUT ME:</h1>
-            </div>
-        </header> -->
-
-        <section class="row pb-5">
+        <section class="row pb-5 pt-5">
 
             <!-- Picture of me -->
             <figure class="col-sm-5"> 
@@ -153,7 +140,7 @@
     
     <!-- Footer, modified from Bootstrap -->
     <footer class="pt-5">
-        <nav class="navbar fixed-bottom navbar-light footer">
+        <nav class="navbar navbar-light footer">
             <a class="navbar-brand mx-auto" style="font-size: 16px;">&#169 Emily Herman 2021</a>
         </nav>
     </footer>

@@ -12,6 +12,7 @@
 .titles {
     font-family: 'Bodoni Moda', serif;
     color: white;
+    background-color: #d30e00;
     font-size: 50px;
 }
 
@@ -20,7 +21,6 @@
     border-color: #ffbb91;
     border-style: outset;
     background-color: #e1eee9 !important;
-    /* padding: 25px; */
 }
 
 .thumbnails {
@@ -39,4 +39,10 @@
 
 .centered {
     text-align: center !important;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#portfolio {
+    background-color: rgb(14, 204, 218);
 }
