@@ -1,17 +1,18 @@
 .upper {
-    background-color: #9ad3bc;
+    background-color: #d30e00;
 }
 
 .footer {
-    background-color: #065c6f;
-    color: #faf3dd !important; 
+    background-color: #f4f7f8;
+    color: #d30e00; 
     font-family: 'Montserrat', sans-serif;
     height: 50px;
 }
 
 .titles {
-    font-family: "Raleway", sans-serif;
-    color: #065c6f !important;
+    font-family: 'Bodoni Moda', serif;
+    color: white;
+    font-size: 50px;
 }
 
 .boxed {
@@ -19,13 +20,23 @@
     border-color: #ffbb91;
     border-style: outset;
     background-color: #e1eee9 !important;
-    padding: 25px;
+    /* padding: 25px; */
 }
 
 .thumbnails {
     margin-bottom: 20px;
     margin-top: 20px;
     height: 300px;
+    /* width: 534px; */
     border: 3px outset #ffbb91;
     padding: 0px;
+}
+
+.stripe-background {
+    /* background-image: url("Assets/pattern1.png"); */
+    background-size: cover;
+}
+
+.centered {
+    text-align: center !important;
 }
