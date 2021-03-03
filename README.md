@@ -1,11 +1,6 @@
-# HW-2_Portfolio-Website
+# Portfolio
 
 Emily Herman 
-| MSU Coding Bootcamp Homework 2 
-| Due date: 09/22/2020
-|
-| REFACTORED 11/05/2020
-
 
 CONTENTS:
 index.html
@@ -13,7 +8,7 @@ index.html
 | contact.html
 | Assets/
 
-DEPLOYED LINK: https://emilyah-01.github.io/HW-2_Portfolio-Website/
+DEPLOYED LINK: https://emilyah-01.github.io/Portfolio/
 
 DESCRIPTION:
 
