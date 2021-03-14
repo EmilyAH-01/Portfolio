@@ -1,10 +1,41 @@
-.upper {
-    background-color: #881108;
+
+body {
+    background-image: url("./Assets/webb.png");
 }
 
-.jumbotron {
-    margin-bottom: 0px;
+nav {
+    font-family: 'Bodoni Moda', serif;
+    background-color: #d30e00;
+    margin-left: 0;
+    margin-right: 0;
 }
+
+.name {
+    font-family: 'Bodoni Moda', serif;
+    color: white;
+    background-color: #d30e00;
+    padding-bottom: 120px;
+    padding-top: 30px;
+}
+
+main {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bioDiv {
+    background-color: white;
+}
+
+.myPhoto {
+    padding-top: 10px;
+}
+
+.bioText {
+    font-size: 110%;
+}
+
+
+
 
 .card {
     border: none;
@@ -15,13 +46,6 @@
     color: #d30e00; 
     font-family: 'Montserrat', sans-serif;
     height: 50px;
-}
-
-.titles {
-    font-family: 'Bodoni Moda', serif;
-    color: white;
-    background-color: #d30e00;
-    font-size: 60px !important;
 }
 
 h2 {
@@ -42,12 +66,4 @@ h2 {
     /* width: 534px; */
     border: 3px outset #ffbb91;
     padding: 0px;
-}
-
-.stripe-background {
-    background-image: url("Assets/pattern1.png");
-}
-
-.centered {
-    text-align: center !important;
 }

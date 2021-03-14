@@ -1,6 +1,6 @@
-<!-- index.html: personal website homepage -->
-<!-- Emily Herman, HW 2, 09/22/2020 -->
-<!-- Refactored 1/16/2021-->
+<!-- index.html: portfolio homepage -->
+<!-- Emily Herman, 09/22/2020 -->
+<!-- Refactored 3/9/2021 -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -9,8 +9,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emily Herman</title>
 
-    <!-- Bootstrap CDN -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- Materialize CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Materialize icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!-- Google Fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -22,94 +25,122 @@
 
 <body>
 
-    <header class="jumbotron titles centered rounded-0">
-        <h1>Emily Herman</h1>
-    </header>
+    <header class="container">
+        <!-- Nav bar -->
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="left hide-on-med-and-down">
+                    <li><a href="#aboutMe">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contactInfo">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
 
-    <!-- Navigation bar, modified from Bootstrap -->
-    <nav class="navbar navbar-expand-lg upper" role="navigation">
+        <!-- Navigation for mobile viewport (sidebar) -->
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="#aboutMe">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contactInfo">Contact</a></li>
+        </ul>
 
-        <!-- "Hamburger" menu for mobile site -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <!-- Links to site sections -->
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link text-white" href="index.html">About</a>
-                <a class="nav-item nav-link text-white" href="#portfolio">Portfolio</a>
-                <a class="nav-item nav-link text-white" href="#contactInfo">Contact</a>
+        <!-- Name -->
+        <div class="row name">
+            <div class="col m12">
+                <h1 class="center">Emily Herman</h1>
+                <h5 class="center">Full Stack Web Developer</h5>
             </div>
         </div>
-    </nav>
-   
+    </header>   
 
-    <main class="container" style="font-family: 'Montserrat', sans-serif;">
+    <main class="container">
          
-        <section class="row pb-5 pt-5">
-
-            <!-- Picture of me -->
-            <figure class="col-sm-5"> 
-                <img class="float-sm-left img-fluid" src="Assets/canyonlands.jpg" alt="Hiking in Canyonlands National Park">           
-            </figure>
+        <section class="row bioDiv" id="aboutMe">
+            <!-- Picture of me (removed <figure> tag)-->
+            <div class="col m4">
+                <img class="responsive-img myPhoto"  src="Assets/canyonlands.jpg" alt="Hiking in Canyonlands National Park">
+            </div>
 
             <!-- Bio paragraph -->
-            <div class="col-sm-7 float-sm-right">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="card-text">
-                            <p> Hello! I'm Emily, a mechanical engineer in Metro Detroit. I've worked at an aerospace company since my graduation from the University of Utah in 2016. I'm ready for a career change, and am excited to venture into the field of web development! I have enjoyed my previous minor forays into coding, which makes me hopeful this field will bring me greater job satisfaction. </p>
-                            <p> When I'm not working or coding, you'll find me spending time outdoors or visiting my home state of Utah. I love going backpacking and paddleboarding, and hope to work as a web developer for an outdoor company or nonprofit that shares my passions. </p>
+            <div class="col m8">
+                <h3>About Me</h3>
+                <p class="flow-text bioText"> Hello! I'm Emily, a mechanical engineer in Metro Detroit. I've worked at an aerospace company since my graduation from the University of Utah in 2016. I'm ready for a career change, and am excited to venture into the field of web development! I have enjoyed my previous minor forays into coding, which makes me hopeful this field will bring me greater job satisfaction. </p>
+                <p class="flow-text bioText"> When I'm not working or coding, you'll find me spending time outdoors or visiting my home state of Utah. I love going backpacking and paddleboarding, and hope to work as a web developer for an outdoor company or nonprofit that shares my passions. </p>
+            </div>
+        </section>
+
+        <!-- Coding projects-->
+        <section id="portfolio">
+            <div class="row">
+                <div class="col m12">
+                    <h3 class="center">Projects</h3>
+                </div>
+                <div class="col m6">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="Assets/brew_hopper.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">Brew Hopper</span>
+                            <p>Description | Technologies | Role I played</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://emilyah-01.github.io/Brew_Hopper/" target="_blank">Deployed Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col m6">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="Assets/weather_dashboard.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">Weather Dashboard</span>
+                            <p>Description | Technologies | Role I played</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://emilyah-01.github.io/HW-6_Weather-Dashboard/" target="_blank">Deployed Project</a>
                         </div>
                     </div>
                 </div>
             </div>
 
-        </section>
-
-        <!-- Portfolio items -->
-        <section class="card mb-5" id="portfolio" style="font-family: 'Montserrat', sans-serif;">
-            <section class="card-body">
-                <div class= "container">
-
-                    <!-- Card title -->
-                    <header class="row pt-2">
-                        <div class="col-sm-12">
-                            <h2 class="centered">Projects:</h2>
+            <div class="row">
+                <div class="col m6">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="Assets/day_planner.png">
                         </div>
-                    </header>
-
-                    <!-- Two images per row for full browser screen -->
-                    <div class="row pt-3">
-                        <div class="col-md-12 picDiv img-fluid"> 
-                            <a href="https://emilyah-01.github.io/Brew_Hopper/" target="_blank">
-                                <img class="thumbnails float-md-left" alt="Brew Hopper" src="Assets/brew_hopper.png">
-                            </a>
-                            <a href="https://emilyah-01.github.io/HW-6_Weather-Dashboard/" target="_blank">
-                                <img class="thumbnails float-md-right" alt="Weather Dashboard" src="Assets/weather_dashboard.png">
-                            </a>          
+                        <div class="card-content">
+                            <span class="card-title">Day Planner</span>
+                            <p>Description | Technologies | Role I played</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://emilyah-01.github.io/HW-5_Day-Planner/" target="_blank">Deployed Project</a>
                         </div>
                     </div>
-
-                    <div class="row pt-3">
-                        <div class="col-md-12 picDiv"> 
-                            <a href="https://emilyah-01.github.io/HW-5_Day-Planner/" target="_blank">
-                                <img class="thumbnails float-md-left" alt="Day Planner" src="Assets/day_planner.png">
-                            </a>  
-                            <a href="https://emilyah-01.github.io/HW-3_Password_Generator/" target="_blank">
-                                <img class="thumbnails float-md-right" alt="Password Generator" src="Assets/password_generator.png">
-                            </a>           
-                        </div>
-                    </div>
-
                 </div>
-            </section>
+                <div class="col m6">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="Assets/password_generator.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">Password Generator</span>
+                            <p>Description | Technologies | Role I played</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://emilyah-01.github.io/HW-3_Password_Generator/" target="_blank">Deployed Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>  
         </section>
 
         <section class="row" id="contactInfo">
             <!-- Card with contact information -->
-                <div class="col-md-6">
+                <!-- <div class="col-md-6">
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title" style="font-family: 'Raleway', sans-serif;">Links:</h5>
@@ -132,26 +163,32 @@
                             </ul>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </section>
         
     </main>
     
     <!-- Footer, modified from Bootstrap -->
-    <footer class="pt-5">
+    <!-- <footer class="pt-5">
         <nav class="navbar navbar-light footer">
             <a class="navbar-brand mx-auto" style="font-size: 16px;">&#169 Emily Herman 2021</a>
         </nav>
-    </footer>
+    </footer> -->
+
 
     <!-- jQuery CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 
-    <!-- Bootstrap JavaScript CDN -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- Materialize JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+        // Sidebar functionality for mobile viewport
+        $(document).ready(function(){
+            $('.sidenav').sidenav();
+          });
+    </script>
 
 </body>
 
