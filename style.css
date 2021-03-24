@@ -1,6 +1,9 @@
-
 body {
     background-image: url("./Assets/webb.png");
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bodoni Moda', serif;
 }
 
 nav {
@@ -8,6 +11,10 @@ nav {
     background-color: #d30e00;
     margin-left: 0;
     margin-right: 0;
+}
+
+#nav-mobile {
+    font-family: 'Montserrat', sans-serif;
 }
 
 .name {
@@ -34,36 +41,15 @@ main {
     font-size: 110%;
 }
 
-
-
-
-.card {
-    border: none;
+.deployed-text {
+    color: #d30e00 !important;
 }
 
-.footer {
-    background-color: #f4f7f8;
-    color: #d30e00; 
+.page-footer {
+    background-color: #d30e00;
     font-family: 'Montserrat', sans-serif;
-    height: 50px;
 }
 
-h2 {
-    font-family: 'Bodoni Moda', serif;  
-}
-
-.boxed {
-    border-width: 3px;
-    border-color: #ffbb91;
-    border-style: outset;
-    background-color: #e1eee9 !important;
-}
-
-.thumbnails {
-    margin-bottom: 20px;
-    margin-top: 20px;
-    height: 300px;
-    /* width: 534px; */
-    border: 3px outset #ffbb91;
-    padding: 0px;
+.footer-copyright {
+    background-color: #d30e00 !important;
 }
