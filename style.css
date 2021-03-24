@@ -50,6 +50,10 @@ main {
     font-family: 'Montserrat', sans-serif;
 }
 
+.icon {
+    color: white;
+}
+
 .footer-copyright {
     background-color: #d30e00 !important;
 }

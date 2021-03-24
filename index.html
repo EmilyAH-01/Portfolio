@@ -15,6 +15,9 @@
     <!-- Materialize icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+    <!-- Fontawesome icons -->
+    <script src="https://kit.fontawesome.com/d5019ac7a5.js" crossorigin="anonymous"></script>
+
     <!-- Google Fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@600&display=swap" rel="stylesheet">
@@ -25,7 +28,7 @@
 
 <body>
 
-    <header class="container">
+    <header>
         <!-- Nav bar -->
         <nav>
             <div class="nav-wrapper">
@@ -139,29 +142,41 @@
         </section> 
     </main>
 
-    <footer class="page-footer">
+    <footer class="page-footer" id="contactInfo">
         <div class="container">
             <div class="row">
-              <div class="col l6 s12">
-                <h5 class="white-text">Contact Me</h5>
-                <p class="grey-text text-lighten-4">Email: emily.a.h@hotmail.com</p>
-                <p class="grey-text text-lighten-4">Phone: (801) 803-3414</p>
-              </div>
-              <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Links</h5>
-                <ul>
-                  <li><a class="grey-text text-lighten-3" href="Assets/Emily-Herman-Resume-2021.pdf" target="_blank">Resume</a></li>
-                  <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/emily-herman-1477767b/" target="_blank">LinkedIn</a></li>
-                  <li><a class="grey-text text-lighten-3" href="https://github.com/EmilyAH-01" target="_blank">Github</a></li>
-                </ul>
-              </div>
+                <div class="col l12">
+                    <h4 class="white-text center">Contact Me:</h4>
+                </div>
             </div>
-          </div>
-          <div class="footer-copyright">
+            <div class="row">
+                <div class="col l3 s12">
+                    <p class="center"><i class="fas fa-envelope fa-2x"></i></p>
+                    <p class="center">emily.a.h@hotmail.com</p>
+                </div>
+                <div class="col l2 s12">
+                    <p class="center"><i class="fas fa-mobile-alt fa-2x"></i></p>
+                    <p class="center">(801) 803-3414</p>
+                </div>
+                <div class="col l2 s12">
+                    <p class="center"><a href="Assets/Emily-Herman-Resume-2021.pdf" target="_blank"><i class="fas fa-file fa-2x icon"></i></a></p>
+                    <p class="center">Resume</p>
+                </div>
+                <div class="col l2 s12">
+                    <p class="center"><a href="https://www.linkedin.com/in/emily-herman-1477767b/" target="_blank"><i class="fab fa-linkedin fa-2x icon"></i></a></p>
+                    <p class="center">LinkedIn</p>
+                </div>
+                <div class="col l2 s12">
+                    <p class="center"><a href="https://github.com/EmilyAH-01" target="_blank"><i class="fab fa-github fa-2x icon"></i></a></p>
+                    <p class="center">Github</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
             <div class="container center">
                 © 2021 Emily Herman
             </div>
-          </div>
+        </div>
     </footer>
 
     <!-- jQuery CDN -->
@@ -174,7 +189,7 @@
         // Sidebar functionality for mobile viewport
         $(document).ready(function(){
             $('.sidenav').sidenav();
-          });
+        });
     </script>
 
 </body>
